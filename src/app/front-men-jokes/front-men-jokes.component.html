@@ -1,0 +1,9 @@
+
+<ng-container *ngIf="jokesList">
+<ul class="list" *ngFor="let value of jokesList" >
+    <li (click)="addFav(value)">{{value.joke}}</li>
+  </ul>
+</ng-container>
+
+
+
